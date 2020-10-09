@@ -1,0 +1,14 @@
+{
+  "name": "postcss-normalize-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss input.css -o out.css"
+  },
+  "dependencies": {
+    "browserslist": "^4.14.5",
+    "postcss-cli": "^8.1.0",
+    "postcss-normalize": "^9.0.0"
+  }
+}
